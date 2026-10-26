@@ -26,14 +26,14 @@ dialog{border:1px solid var(--line);border-radius:18px;max-width:650px;width:cal
 .skills-sources dt{font:9px/1.6 Consolas,monospace;letter-spacing:.03em;color:var(--blue);border:1px solid #cbd9f6;background:#eaf0fd;border-radius:5px;padding:5px 7px}
 .skills-sources dd{margin:1px 0 0;font-size:11px;font-weight:500;line-height:1.6;min-width:0;overflow-wrap:anywhere}
 .source-name>span{display:block;font-size:9px;font-weight:400;color:var(--muted);margin-top:3px}
-.skills-catalog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start}
+.skills-catalog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start;margin-top:32px}
 .skill-category{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px 21px 14px;min-width:0}
 .skill-category-heading{display:flex;align-items:center;gap:10px;min-height:45px;margin-bottom:14px;padding-bottom:17px;border-bottom:1px solid #e7edf6}
 .skill-category-icon{font:21px/1 Consolas,monospace;color:var(--blue);letter-spacing:-2px;min-width:27px;white-space:nowrap}
 .skill-category h3{font-size:16px;font-weight:500;line-height:1.4;letter-spacing:-.025em;flex:1;min-width:0;overflow-wrap:anywhere}
 .skill-category-count{align-self:flex-start;background:#f0f4fb;color:#536581;border-radius:50%;min-width:23px;height:23px;display:grid;place-items:center;font:9px Consolas,monospace;flex-shrink:0}
 .skill-category>ul{list-style:none;padding:0;margin:0}
-.skill-entry{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:start;gap:12px;padding:10px 0;min-width:0}
+.skill-entry{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;padding:10px 0;min-width:0}
 .skill-entry+.skill-entry{border-top:1px solid #eff2f7}
 .skill-name{display:block;font-size:12px;line-height:1.65;min-width:0;overflow-wrap:anywhere;color:#24314a}
 .skill-origin{display:block;text-align:right;font-size:9px;line-height:1.8;color:#52647f;min-width:0;overflow-wrap:anywhere;padding-top:2px}
