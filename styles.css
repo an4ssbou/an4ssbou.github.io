@@ -47,3 +47,9 @@ dialog{border:1px solid var(--line);border-radius:18px;max-width:650px;width:cal
 @media(max-width:1050px){.skills-sources{gap:18px}.skills-sources>div{grid-template-columns:1fr;gap:8px}.skills-sources dt{justify-self:start}.skills-catalog{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
 @media(max-width:720px){.skills-caption{font-size:11px;margin-top:20px}.skills-sources{grid-template-columns:1fr;gap:17px;padding-block:20px;margin-bottom:24px}.skills-sources>div{grid-template-columns:54px minmax(0,1fr);gap:12px}.skills-sources dt{font-size:8px}.skills-sources dd{font-size:11px}.skills-catalog{grid-template-columns:minmax(0,1fr);gap:18px}.skill-category{padding:21px 20px 12px}.skill-category h3{font-size:17px}.skill-entry{padding-block:11px;gap:12px}.skill-name{font-size:12px}.skill-origin{font-size:10px}.skills-practice{margin-top:25px;padding-block:23px}.skills-practice h3{font-size:17px}.skills-practice .tags li{font-size:9px}}
 @media(max-width:720px){.hero h1,.project-body h3{overflow-wrap:anywhere}.hero-actions,.hero-location,#main-nav,.timeline-date{flex-wrap:wrap}.timeline-date{row-gap:6px}}
+.project-footer.has-repository{flex-wrap:wrap;gap:4px 12px;padding-block:10px}
+.project-repository{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:6px 0;color:var(--blue);font-size:10px;font-weight:500}
+.project-repository:hover{text-decoration:underline;text-underline-offset:4px}
+.project-repository>span{font-size:14px}
+.repository-actions{margin-top:24px;margin-bottom:8px}
+.repository-actions .button{max-width:100%;white-space:normal}
