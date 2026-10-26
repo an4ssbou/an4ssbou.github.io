@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f6fc">
+  <meta name="description" content="Portfolio d’Anass Bouchebchoub, étudiant en L3 Informatique PSM à Montbéliard : projets web et logiciels, parcours en double diplomation et compétences.">
+  <title>Anass Bouchebchoub — Développement & multimédia</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <a href="#accueil" class="brand" aria-label="Anass Bouchebchoub, accueil"><span class="brand-mark">a<span>.</span>b</span><span class="brand-caption">Anass Bouchebchoub<br><small>Développement & multimédia</small></span></a>
+    <button class="menu-toggle js-only" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav"><span>Menu</span><span class="menu-icon" aria-hidden="true">☰</span></button>
+    <nav id="main-nav" aria-label="Navigation principale">
+      <a href="#projets">Projets</a><a href="#parcours">Parcours</a><a href="#competences">Compétences</a><a class="nav-contact" href="#contact">Échanger <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="hero section-shell" id="accueil" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Informatique · Produits & services multimédia</p>
+        <h1 id="hero-title">Anass<br><span>Bouchebchoub</span><span class="title-dot" aria-hidden="true">.</span></h1>
+        <p class="hero-thesis">Du code aux expériences<br>qui prennent vie.</p>
+        <p class="hero-description">Étudiant en <strong>L3 Informatique, parcours PSM</strong> à Montbéliard. J’explore le développement web et logiciel, à la rencontre de la technique et des usages.</p>
+        <div class="hero-actions"><a href="#projets" class="button button-primary">Explorer mes projets <span aria-hidden="true">↘</span></a><a href="#parcours" class="text-link">Mon parcours <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-location"><span aria-hidden="true">⌖</span> Montbéliard, France <span class="location-rule" aria-hidden="true"></span> Oujda, Maroc</div>
+      </div>
+      <div class="hero-art-shell">
+        <div class="orbital-art" aria-hidden="true">
+          <div class="art-grid"></div><div class="orbital-halo"></div>
+          <div class="orbital-ring ring-one"></div><div class="orbital-ring ring-two"></div><div class="orbital-ring ring-three"></div>
+          <div class="core"><div class="core-grid"></div><span class="core-symbol">&lt;/&gt;</span></div>
+          <div class="orbit-label label-web"><span class="label-icon">{ }</span><span>Développement<br><strong>web & logiciel</strong></span></div>
+          <div class="orbit-label label-media"><span class="label-icon">✳</span><span>Produits & services<br><strong>multimédia</strong></span></div>
+          <div class="floating-code"><span class="code-dot"></span><span>idées<span class="code-arrow"> → </span>interfaces</span></div>
+          <span class="art-coordinate coord-top">CREATIVE COMPUTING</span><span class="art-coordinate coord-bottom">CONCEVOIR. DÉVELOPPER. EXPLORER.</span>
+          <span class="orbital-point point-one"></span><span class="orbital-point point-two"></span>
+        </div>
+        <button class="motion-control js-only" aria-pressed="false"><span class="pause-symbol" aria-hidden="true">Ⅱ</span> Mettre en pause l’animation</button>
+      </div>
+      <div class="hero-bottom"><span>Un parcours entre deux universités.</span><span class="mono">FRANCE <span aria-hidden="true">↔</span> MAROC</span><a href="#projets" aria-label="Descendre vers les projets"><span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="projects-section section-shell" id="projets" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">De l’idée à la réalisation</p><h2 id="projects-title">Projets choisis<span class="accent">.</span></h2></div><p>Des contextes différents.<br>La même envie de construire.</p></div>
+      <div class="projects-toolbar"><div class="filters js-only" role="group" aria-label="Filtrer les projets"><button type="button" data-filter="all" aria-label="Tous" aria-pressed="true">Tous <span aria-hidden="true">4</span></button><button type="button" data-filter="web" aria-pressed="false">Web</button><button type="button" data-filter="app" aria-pressed="false">Applications</button></div><p id="project-count" class="mono" role="status" aria-live="polite">4 projets</p></div>
+      <div class="project-grid">
+        <article class="project-card" data-category="web">
+          <div class="project-visual carloc-visual" aria-hidden="true"><div class="visual-topline"><span>CARLOC</span><span>FLEET & MOBILITY</span></div><div class="road road-one"></div><div class="road road-two"></div><div class="road-dot dot-a"></div><div class="road-dot dot-b"></div><div class="car-drawing"><svg viewBox="0 0 340 140" fill="none"><path d="m43 91 22-39c5-9 15-16 26-16h114c11 0 21 4 28 12l31 32 34 8c10 3 17 12 17 22v7H26v-12c0-8 7-14 17-14Z" fill="#e8efff" stroke="#fff" stroke-width="2"/><path d="m79 78 16-29h101c8 0 15 3 20 9l19 20H79Z" fill="#18345d"/><path d="m153 50-6 28" stroke="#8dbaff" stroke-width="3"/><circle cx="89" cy="113" r="23" fill="#101827" stroke="#adc4ef" stroke-width="4"/><circle cx="89" cy="113" r="10" fill="#637caa"/><circle cx="258" cy="113" r="23" fill="#101827" stroke="#adc4ef" stroke-width="4"/><circle cx="258" cy="113" r="10" fill="#637caa"/></svg></div><div class="visual-label">Une flotte.<br>Plusieurs horizons.</div><span class="visual-chip">Projet personnel · 2026</span></div>
+          <div class="project-body"><div class="project-meta"><span>Web · Location multi-agences</span><span>2026</span></div><h3>CarLoc <span aria-hidden="true">↗</span></h3><p>Réserver un véhicule, gérer une flotte et réunir plusieurs agences dans une même plateforme.</p><ul class="tags" aria-label="Technologies"><li>Laravel</li><li>Blade</li><li>MySQL</li><li>Docker</li></ul><div class="project-footer"><span>Visuel d’illustration</span><button class="project-open js-only" aria-label="Découvrir CarLoc">Découvrir le projet <span aria-hidden="true">↗</span></button></div></div>
+          <div class="project-details" hidden><p class="detail-eyebrow">Projet personnel · 2026</p><p>Plateforme de location de voitures multi-agences. <strong>Réalisé seul.</strong></p><h3>Ce que le projet réunit</h3><ul><li>Réservations et gestion de flotte</li><li>Authentification et gestion des rôles</li><li>Tableaux de bord</li></ul><h3>Technologies</h3><p>Laravel, Blade, MySQL, Tailwind CSS, Vite, Docker Compose.</p><p class="demo-status">Démonstration publique non disponible. Aucun dépôt spécifique fourni pour ce portfolio.</p><p class="source-note">Présentation issue du CV. Le visuel est une illustration, pas une capture de l’application.</p></div>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <div class="project-visual booking-visual" aria-hidden="true"><div class="visual-topline"><span>ESPACES & RENCONTRES</span><span>CHU · OUJDA</span></div><div class="calendar-art"><div class="calendar-head"><span>Réserver un espace</span><span>↗</span></div><div class="calendar-days"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span></div><div class="calendar-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="calendar-event event-one">Réunion d’équipe</span><span class="calendar-event event-two">Salle réservée</span></div><div class="booking-orb"></div><span class="visual-chip">Projet en binôme · 2026</span></div>
+          <div class="project-body"><div class="project-meta"><span>Web · Organisation des espaces</span><span>2026</span></div><h3>Réservation de salles <span aria-hidden="true">↗</span></h3><p>Organiser les réservations et détecter les conflits horaires au CHU Mohammed VI d’Oujda.</p><ul class="tags" aria-label="Technologies"><li>React 19</li><li>Laravel 11</li><li>Sanctum</li><li>MySQL</li></ul><div class="project-footer"><span>Visuel d’illustration</span><button class="project-open js-only" aria-label="Découvrir Réservation de salles">Découvrir le projet <span aria-hidden="true">↗</span></button></div></div>
+          <div class="project-details" hidden><p class="detail-eyebrow">Stage · CHU Mohammed VI, Oujda · Juillet–août 2026</p><p>Application de réservation de salles. <strong>Projet réalisé en binôme.</strong></p><h3>Ce que le projet réunit</h3><ul><li>Détection des conflits horaires et validation des demandes</li><li>Droits d’accès et notifications par e-mail</li><li>Interface bilingue et responsive</li><li>Contribution aux tests PHPUnit</li></ul><h3>Technologies</h3><p>Laravel 11, React 19, Sanctum, MySQL 8, PHPUnit.</p><p class="demo-status">Démonstration publique non disponible. Aucun dépôt spécifique fourni pour ce portfolio.</p><p class="source-note">Présentation issue du CV. Le visuel est une illustration, pas une capture de l’application.</p></div>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <div class="project-visual inventory-visual" aria-hidden="true"><div class="visual-topline"><span>INVENTAIRE INFORMATIQUE</span><span>MERN STACK</span></div><div class="inventory-stack"><div class="inventory-tile tile-one"><span>⌘</span><span>Équipements</span><i></i></div><div class="inventory-tile tile-two"><span>▤</span><span>Inventaire</span><i></i></div><div class="inventory-tile tile-three"><span>⤧</span><span>Modélisation</span><i></i></div></div><span class="visual-chip">Stage · 2024</span></div>
+          <div class="project-body"><div class="project-meta"><span>Web · Gestion de ressources</span><span>2024</span></div><h3>Inventaire informatique <span aria-hidden="true">↗</span></h3><p>Modéliser et développer une application de gestion de l’inventaire du service informatique.</p><ul class="tags" aria-label="Technologies"><li>MongoDB</li><li>Express.js</li><li>React</li><li>Node.js</li></ul><div class="project-footer"><span>Visuel d’illustration</span><button class="project-open js-only" aria-label="Découvrir Inventaire informatique">Découvrir le projet <span aria-hidden="true">↗</span></button></div></div>
+          <div class="project-details" hidden><p class="detail-eyebrow">Stage · CHU Mohammed VI, Oujda · Mai–juin 2024</p><p><strong>Conception et développement</strong> d’une application web de gestion de l’inventaire du service informatique.</p><h3>Ce que le projet réunit</h3><ul><li>Gestion de l’inventaire informatique</li><li>Modélisation UML</li></ul><h3>Technologies</h3><p>MongoDB, Express.js, React, Node.js, UML.</p><p class="demo-status">Démonstration publique non disponible. Aucun dépôt spécifique fourni pour ce portfolio.</p><p class="source-note">Présentation issue du CV. Le visuel est une illustration, pas une capture de l’application.</p></div>
+        </article>
+
+        <article class="project-card" data-category="app">
+          <div class="project-visual hospital-visual" aria-hidden="true"><div class="visual-topline"><span>GESTION HOSPITALIÈRE</span><span>DESKTOP APPLICATION</span></div><div class="hospital-art"><div class="hospital-cross"><span></span><span></span></div><div class="data-path path-one"></div><div class="data-path path-two"></div><div class="data-node node-one">Données</div><div class="data-node node-two">Structure</div></div><span class="visual-chip">Stage · 2023</span></div>
+          <div class="project-body"><div class="project-meta"><span>Application · Gestion hospitalière</span><span>2023</span></div><h3>Gestion hospitalière <span aria-hidden="true">↗</span></h3><p>Concevoir une application de bureau et structurer ses données à l’aide de la méthode Merise.</p><ul class="tags" aria-label="Technologies"><li>Visual Basic .NET</li><li>SQL Server</li><li>Merise</li></ul><div class="project-footer"><span>Visuel d’illustration</span><button class="project-open js-only" aria-label="Découvrir Gestion hospitalière">Découvrir le projet <span aria-hidden="true">↗</span></button></div></div>
+          <div class="project-details" hidden><p class="detail-eyebrow">Stage · CHU Mohammed VI, Oujda · Juillet 2023</p><p><strong>Réalisation d’une application de bureau</strong> de gestion hospitalière.</p><h3>Ce que le projet réunit</h3><ul><li>Application de bureau</li><li>Structuration des données et fonctionnalités avec Merise</li></ul><h3>Technologies</h3><p>Visual Basic .NET, SQL Server, Merise.</p><p class="demo-status">Démonstration publique non disponible. Aucun dépôt spécifique fourni pour ce portfolio.</p><p class="source-note">Présentation issue du CV. Le visuel est une illustration, pas une capture de l’application.</p></div>
+        </article>
+      </div>
+      <p class="projects-note">Ces projets sont présentés à partir de mon parcours. Les démonstrations publiques ne sont pas encore disponibles.</p>
+    </section>
+
+    <section class="journey-section section-shell" id="parcours" aria-labelledby="journey-title">
+      <div class="journey-intro"><p class="eyebrow">Apprendre, relier, construire</p><h2 id="journey-title">Deux rives.<br>Un même élan<span class="accent">.</span></h2><p>De Oujda à Montbéliard, mon parcours relie le développement informatique aux produits et services multimédia.</p><p>Une <strong>double diplomation</strong> entre l’Université Marie et Louis Pasteur et l’Université Mohammed Premier.</p><div class="journey-map" aria-hidden="true"><span>Oujda <small>MAROC</small></span><svg viewBox="0 0 160 60"><path d="M5 50C40 50 45 5 80 5s40 45 75 5" fill="none" stroke="currentColor" stroke-dasharray="4 5"/><circle cx="5" cy="50" r="3" fill="currentColor"/><circle cx="155" cy="10" r="3" fill="currentColor"/></svg><span>Montbéliard <small>FRANCE</small></span></div></div>
+      <ol class="timeline"><li><div class="timeline-date">2026–2027 <span class="current-label">L3 en cours</span></div><h3>Informatique · Produits et Services Multimédia</h3><p>Université Marie et Louis Pasteur<br>UFR STGI · Montbéliard</p></li><li><div class="timeline-date">2025–2026 <span>Mention Bien</span></div><h3>Licence Informatique appliquée · Parcours Développement informatique</h3><p>Université Mohammed Premier<br>Faculté des sciences · Oujda</p></li><li><div class="timeline-date">2024–2025 <span>Mention Bien</span></div><h3>DEUG Informatique appliquée</h3><p>Université Mohammed Premier<br>Faculté des sciences · Oujda</p></li><li><div class="timeline-date">2022–2024 <span>Mention Très Bien</span></div><h3>BTS Développement des systèmes d’information</h3><p>Lycée Technique El Maghrib El Arabi · Oujda</p></li></ol>
+    </section>
+
+    <section class="skills-section section-shell" id="competences" aria-labelledby="skills-title"><div class="section-heading"><div><p class="eyebrow">Ma boîte à outils</p><h2 id="skills-title">Des idées aux interfaces<span class="accent">.</span></h2></div><p>Les technologies que j’utilise<br>au fil de mes projets.</p></div><div class="skill-grid"><div class="skill-group"><span class="skill-symbol" aria-hidden="true">&lt;/&gt;</span><h3>Développement web</h3><ul><li>PHP & Laravel</li><li>React & JavaScript</li><li>Tailwind CSS & Vite</li><li>API REST & Sanctum</li></ul></div><div class="skill-group"><span class="skill-symbol" aria-hidden="true">▤</span><h3>Données & logiciel</h3><ul><li>MySQL & SQL Server</li><li>MongoDB</li><li>Node.js & Express.js</li><li>Visual Basic .NET</li></ul></div><div class="skill-group"><span class="skill-symbol" aria-hidden="true">⤧</span><h3>Méthodes & outils</h3><ul><li>UML & Merise</li><li>Git & GitHub</li><li>Tests PHPUnit</li><li>Rôles & permissions</li></ul></div></div><div class="language-line"><span class="mono">AUSSI, POUR ÉCHANGER</span><span>Français <small>Courant</small></span><span>Anglais <small>B2</small></span><span>Arabe <small>Langue maternelle</small></span></div></section>
+
+    <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title"><div class="contact-decoration" aria-hidden="true">↗</div><p class="eyebrow">La suite commence par un échange</p><h2 id="contact-title">Et si l’on construisait<br>quelque chose ensemble ?</h2><p>Un projet, une opportunité ou simplement une question sur mon parcours ? Retrouvez-moi sur mes profils professionnels.</p><div class="contact-links"><a class="button button-light" href="https://www.linkedin.com/in/anas-bouchebchoub/" target="_blank" rel="noopener noreferrer">Échanger sur LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (nouvel onglet)</span></a><a class="contact-github" href="https://github.com/an4ssbou" target="_blank" rel="noopener noreferrer">Voir mon GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (nouvel onglet)</span></a></div><p class="internship-note">Recherche de stage : dès mi-mars 2027 · 420 heures · convention disponible.<br><span>Disponibilité indiquée dans mon CV, à confirmer lors de notre échange.</span></p></section>
+  </main>
+  <footer class="site-footer section-shell"><a class="brand-mark" href="#accueil" aria-label="Retour à l’accueil">a<span>.</span>b</a><p>Anass Bouchebchoub <span>·</span> Portfolio 2026</p><a href="#accueil">Retour en haut <span aria-hidden="true">↑</span></a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="mono">DANS LES COULISSES DU PROJET</span><button type="button" class="dialog-close" aria-label="Fermer la fiche">Fermer <span aria-hidden="true">×</span></button></div><h2 id="dialog-title"></h2><div id="dialog-content"></div></dialog>
+</body>
+</html>
