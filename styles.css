@@ -53,3 +53,8 @@ dialog{border:1px solid var(--line);border-radius:18px;max-width:650px;width:cal
 .project-repository>span{font-size:14px}
 .repository-actions{margin-top:24px;margin-bottom:8px}
 .repository-actions .button{max-width:100%;white-space:normal}
+
+.project-demo{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:6px 0;color:var(--blue);font-size:10px;font-weight:500}
+.project-demo:hover{text-decoration:underline;text-underline-offset:4px}
+.project-demo>span{font-size:14px}
+.repository-actions{display:flex;flex-wrap:wrap;gap:12px}
